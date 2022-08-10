@@ -28,7 +28,7 @@ MySQL 8.0.29.0
 
 > 该路径是apache的安装路径。
 
-![1](img\1.png)
+![1](img/1.png)
 
 管理员权限打开cmd，进入到`bin`文件夹，安装并启动服务，如下所示：
 
@@ -37,11 +37,11 @@ httpd -k install
 httpd -k start
 ```
 
-![2](img\2.png)
+![2](img/2.png)
 
 浏览器访问 http://localhost/ 测试是否安装成功，显示如下则表示apache安装成功：
 
-![3](img\3.png)
+![3](img/3.png)
 
 
 
@@ -51,15 +51,15 @@ httpd -k start
 
 > 路径为解压的PHP文件夹里对应的文件路径
 
-![4](img\4.png)
+![4](img/4.png)
 
 将PHP安装目录下的 `php.ini-development` 文件复制一份，将复制的那一份文件名改成`php.ini`，修改`php.ini`如下：
 
 > 因为代码行数很多，可以使用查找功能查找关键词来找到对应的部分
 
-![7](img\7.png)
+![7](img/7.png)
 
-![6](img\6.png)
+![6](img/6.png)
 
 编写一个php测试文件，`test.php`内容如下：
 
@@ -71,7 +71,7 @@ httpd -k start
 
 将其放在Apache的htdocs文件夹下，这里应该可以看到一个index.html文件（测试Apache是否安装成功的那个页面)），然后访问 http://localhost/test.php 出现下面页面表示成功：
 
-![5](img\5.png)
+![5](img/5.png)
 
 
 
@@ -79,19 +79,19 @@ httpd -k start
 
 官网下载MySQL，通过下载的文件`mysql-installer-community-8.0.29.0.msi`进行数据库安装：
 
-<img src="img\18.png" alt="18" style="zoom:80%;" />
+<img src="img/18.png" alt="18" style="zoom:80%;" />
 
 我们的数据库只使用了一个表，用于存储用户信息，即账号和密码：
 
 > 我们将该数据库导出了，即`data.sql`文件
 
-![21](img\21.png)
+![21](img/21.png)
 
 我们还需要在mysql里手动添加一个user，赋予所有权限，密码：*8272D64B4DB9D7DF622DF834A91F9BEA74C6CE6C
 
-![19](img\19.png)
+![19](img/19.png)
 
-![20](img\20.png)
+![20](img/20.png)
 
 
 
@@ -107,19 +107,19 @@ httpd -k start
 >
 > test.php 和 test2.php 都是我们写的测试文件，用来查找报错问题的
 
-![22](img\22.png)
+![22](img/22.png)
 
 > 以下为 src 文件夹的内容，即网站文件
 
-![23](img\23.png)
+![23](img/23.png)
 
 尝试访问登录页面 http://localhost/src/login.php ，结果有如下报错：
 
-![8](img\8.png)
+![8](img/8.png)
 
 根据报错提示的信息，找到相关文件`AuthLocal.class.php`的代码，查阅资料后得知这是数据库连接函数，需要使用mysqli，于是修改函数如下：
 
-![9](img\9.png)
+![9](img/9.png)
 
 但依旧没有解决问题，后来参考 [这篇文章](https://blog.csdn.net/www121104115/article/details/75006164?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165770656016781435425388%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165770656016781435425388&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-3-75006164-null-null.142^v32^pc_rank_34,185^v2^control&utm_term=%20Call%20to%20undefined%20function%20mysqli_connect%28%29%20in%20&spm=1018.2226.3001.4187) 后终于解决了。
 
@@ -132,10 +132,10 @@ httpd -k start
    ```
 2. 增添环境变量：
 
-   ![10](img\10.png)
+   ![10](img/10.png)
 3. 访问 http://localhost/test.php 如果可以找到mysqli的如下配置界面则表示配置成功
 
-   ![11](img\11.png)
+   ![11](img/11.png)
 
 解决上面的问题后，编写 test2.php 测试是否可以连接上MySQL：
 
@@ -151,7 +151,7 @@ if ($conn) {
 ?>
 ```
 
-![12](img\12.png)
+![12](img/12.png)
 
 但是再测试我们的登录界面`login.php`文件时，又遇到如下错误：
 
@@ -165,7 +165,7 @@ if ($conn) {
 
 发现是 `Functions.php` 内的函数多了一个无用参数导致的，将这个参数删除即可：
 
-![13](img\13.png)
+![13](img/13.png)
 
 然后又遇到如下错误：
 
@@ -175,25 +175,25 @@ if ($conn) {
 
 修改前：
 
-![14](img\14.png)
+![14](img/14.png)
 
 修改后：
 
-![15](img\15.png)
+![15](img/15.png)
 
-![16](img\16.png)
+![16](img/16.png)
 
 终于成功加载了login界面：
 
-![24](img\24.png)
+![24](img/24.png)
 
 但进入 `index.php` 后又遇到如下问题，说明我们的代码的文件路径是有问题的：
 
-![17](img\17.png)
+![17](img/17.png)
 
 找到报错“文件系统错误，无法访问UESR目录”的相关代码如下，位于`webftp.php`文件内：
 
-![25](img\25.png)
+![25](img/25.png)
 
 根据代码一步步向上回溯，编写`test2.php`进行测试，将需要的变量和函数完全复制过来，进行测试：
 
@@ -312,13 +312,13 @@ print "test is: $b";
 
 得到以下测试结果：
 
-![27](img\27.png)
+![27](img/27.png)
 
 说明root路径是正确的，并且可以使用的，而user路径没有输出。
 
 经过排查，可能是这个函数的问题：
 
-![26](img\26.png)
+![26](img/26.png)
 
 > realpath(wf_config('ROOT_PATH'))
 > 报错realpath不能是null，而wf_config()函数返回的是null，好像是这样，所以不能输出user路径
@@ -329,11 +329,11 @@ print "test is: $b";
 
 > 让user使用root的路径，原本的代码被我注释了，不过这样并没完全解决这个问题，不过网站可以使用了
 
-![28](img\28.png)
+![28](img/28.png)
 
 成功进入文件管理界面，不过是root目录：
 
-![29](img\29.png)
+![29](img/29.png)
 
 经过测试，网站的功能都能使用，剩下的部分就交给负责攻击网站的同学进行实验了。
 
