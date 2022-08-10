@@ -64,13 +64,13 @@ zhang-de-xin，xt0103，cucwzy，David-cluns，cuczbj，Eitan
 
 登录页面：
 
-![登录页面](.\img\登录页面.png)
+![登录页面](./img/登录页面.png)
 
 登录后的页面：
 
-![文件管理页面](.\img\文件管理页面.png)
+![文件管理页面](./img/文件管理页面.png)
 
 破解：
 
-![破解页面](.\img\破解页面.png)
+![破解页面](./img/破解页面.png)
 
