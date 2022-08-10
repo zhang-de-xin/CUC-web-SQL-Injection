@@ -36,7 +36,7 @@ zhang-de-xin，xt0103，cucwzy，David-cluns，cuczbj，Eitan
 
 ## 本项目用到的关键技术
 
-- 前端使用`bootstrap`框架进行页面搭建，并使用`css`和`js`配合开发
+- 前端使用`html`，`bootstrap`框架进行页面搭建，并使用`css`和`js`配合开发
 - 后端使用`PHP`进行开发
 - 服务器选用`Apache`，数据库使用`MySQL`
 
