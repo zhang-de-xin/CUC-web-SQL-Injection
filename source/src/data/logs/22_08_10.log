@@ -1,0 +1,2 @@
+[ 2022-08-10 00:32:42 (CST) ]  NOTICE:  session_start(): Ignoring session_start() because a session is already active  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第56行  
+[ 2022-08-10 00:32:42 (CST) ]  WARNING:  Trying to access array offset on value of type null  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第63行  

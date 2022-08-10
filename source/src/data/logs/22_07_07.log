@@ -1,0 +1,32 @@
+[ 2022-07-07 09:49:50 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\AppServ\www\core\AuthLocal.class.php  第29行  
+[ 2022-07-07 09:51:36 (CST) ]  WARNING:  mysql_connect(): Server sent charset (255) unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 09:51:36 (CST) ]  WARNING:  mysql_connect(): Server sent charset unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 09:52:13 (CST) ]  NOTICE:  Undefined index: wf_uname  C:\AppServ\www\core\AuthLocal.class.php  第39行  
+[ 2022-07-07 09:52:13 (CST) ]  NOTICE:  Undefined index: wf_upawd  C:\AppServ\www\core\AuthLocal.class.php  第40行  
+[ 2022-07-07 09:52:13 (CST) ]  WARNING:  mysql_connect(): Server sent charset (255) unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 09:52:13 (CST) ]  WARNING:  mysql_connect(): Server sent charset unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 10:15:46 (CST) ]  WARNING:  mysql_connect(): Server sent charset (255) unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 10:15:46 (CST) ]  WARNING:  mysql_connect(): Server sent charset unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 10:16:32 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\AppServ\www\core\AuthLocal.class.php  第29行  
+[ 2022-07-07 10:19:22 (CST) ]  WARNING:  mysql_connect(): Server sent charset (255) unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 10:19:22 (CST) ]  WARNING:  mysql_connect(): Server sent charset unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 10:21:13 (CST) ]  WARNING:  mysql_connect(): Server sent charset (255) unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 10:21:13 (CST) ]  WARNING:  mysql_connect(): Server sent charset unknown to the client. Please, report to the developers  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 10:57:37 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\AppServ\www\core\AuthLocal.class.php  第29行  
+[ 2022-07-07 10:57:59 (CST) ]  WARNING:  mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 11:04:01 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\AppServ\www\core\AuthLocal.class.php  第29行  
+[ 2022-07-07 11:04:25 (CST) ]  WARNING:  mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 11:05:01 (CST) ]  NOTICE:  Undefined index: wf_uname  C:\AppServ\www\core\AuthLocal.class.php  第39行  
+[ 2022-07-07 11:05:01 (CST) ]  NOTICE:  Undefined index: wf_upawd  C:\AppServ\www\core\AuthLocal.class.php  第40行  
+[ 2022-07-07 11:05:05 (CST) ]  WARNING:  mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 11:26:55 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\AppServ\www\core\AuthLocal.class.php  第29行  
+[ 2022-07-07 11:35:01 (CST) ]  WARNING:  mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 11:38:24 (CST) ]  NOTICE:  Undefined index: loggedIn  C:\AppServ\www\core\AuthLocal.class.php  第29行  
+[ 2022-07-07 11:41:12 (CST) ]  WARNING:  mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+  C:\AppServ\www\core\AuthLocal.class.php  第48行  
+[ 2022-07-07 12:42:23 (CST) ]  WARNING:  mysql_connect(): ����Ŀ����������ܾ����޷����ӡ�
+  C:\AppServ\www\core\AuthLocal.class.php  第48行  

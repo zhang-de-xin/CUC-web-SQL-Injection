@@ -1,0 +1,2 @@
+[ 2022-08-09 21:44:05 (CST) ]  NOTICE:  session_start(): Ignoring session_start() because a session is already active  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第56行  
+[ 2022-08-09 23:55:11 (CST) ]  NOTICE:  session_start(): Ignoring session_start() because a session is already active  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第56行  

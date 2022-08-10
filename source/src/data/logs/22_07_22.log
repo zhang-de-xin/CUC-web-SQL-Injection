@@ -1,0 +1,12 @@
+[ 2022-07-22 18:02:15 (CST) ]  WARNING:  Undefined array key "wf_uname"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第39行  
+[ 2022-07-22 18:02:15 (CST) ]  WARNING:  Undefined array key "wf_upawd"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第40行  
+[ 2022-07-22 18:17:20 (CST) ]  NOTICE:  session_start(): Ignoring session_start() because a session is already active  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第56行  
+[ 2022-07-22 19:22:09 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:22:20 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:23:53 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:23:58 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:24:06 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:24:08 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:24:23 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:24:52 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
+[ 2022-07-22 19:25:25 (CST) ]  WARNING:  Undefined array key "loggedIn"  D:\Apache\httpd-2.4.54-o111p-x64-vs17\Apache24\htdocs\src\core\AuthLocal.class.php  第29行  
