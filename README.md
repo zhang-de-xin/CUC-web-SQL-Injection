@@ -28,8 +28,8 @@ zhang-de-xin，xt0103，cucwzy，David-cluns，cuczbj，Eitan
 
 |         组员         |                          负责的工作                          |
 | :------------------: | :----------------------------------------------------------: |
-| zhang-de-xin，xt0103 | 后端环境搭建，服务器，数据库，解决网页代码的部分报错，使网站正常运行。 |
-| cucwzy，David-cluns  |     编写前端代码，使用PHP搭建网站界面，实现网站的功能。      |
+| zhang-de-xin，xt0103 | 使用php完成后端环境搭建，服务器，数据库，解决网页代码的部分报错，使网站正常运行。 |
+| cucwzy，David-cluns  |     编写前端代码，使用html搭建网站界面，实现网站的功能。      |
 |    cuczbj，Eitan     |  进行break it，攻击网站，以及check和exp脚本，解题视频录制。  |
 
 
